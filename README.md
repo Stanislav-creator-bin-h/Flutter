@@ -25,3 +25,4 @@ Column розміщує елементи вертикально, а Row — го
 - Навіщо SingleChildScrollView?
 Щоб екран можна було прокручувати, якщо контент не вміщається на екрані.
 ---
+<img width="591" height="1280" alt="5465151580299532690_121" src="https://github.com/user-attachments/assets/a1ae9c2d-81de-4c51-adfb-e2366b80b6c1" />
