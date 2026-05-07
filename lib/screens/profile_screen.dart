@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:profile_card_app_v2/models/profile.dart';
-import 'package:profile_card_app_v2/widgets/profile_card.dart';
-import 'package:profile_card_app_v2/widgets/contact_info.dart';
-import 'package:profile_card_app_v2/widgets/social_links_row.dart';
-import 'package:profile_card_app_v2/widgets/app_button.dart';
+import '../models/user.dart';
+import '../models/profile.dart';
+import '../widgets/profile_card.dart';
+import '../widgets/contact_info.dart';
+import '../widgets/social_links_row.dart';
+import '../widgets/app_button.dart';
 
 class ProfileScreen extends StatefulWidget {
-  const ProfileScreen({super.key});
+  final User user;
+
+  const ProfileScreen({super.key, required this.user});
 
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
@@ -25,7 +28,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Future<void> loadProfileData() async {
     await Future.delayed(const Duration(milliseconds: 500));
     setState(() {
-      profile = Profile.defaultProfile;
+      profile = Profile(
+        name: widget.user.name,
+        title: widget.user.job,
+        bio:
+            'Contact ${widget.user.name} for more details about ${widget.user.job}.',
+        avatarUrl: 'https://cdn-icons-png.flaticon.com/512/3541/3541871.png',
+        phoneNumbers: [widget.user.phone],
+        emails: [widget.user.email],
+        socialLinks: {'GitHub': '', 'LinkedIn': '', 'Twitter': ''},
+      );
       isLoading = false;
     });
   }
@@ -54,10 +66,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     const SizedBox(height: 24),
                     SocialLinksRow(profile: profile),
                     const SizedBox(height: 32),
-                    AppButton(
-                      label: 'Edit Profile',
-                      onPressed: () {},
-                    ),
+                    AppButton(label: 'Edit Profile', onPressed: () {}),
                   ],
                 ),
               ),

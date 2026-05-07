@@ -1,23 +1,23 @@
 ﻿import 'package:flutter/material.dart';
-import 'package:profile_card_app_v2/screens/profile_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const UserDirectoryApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class UserDirectoryApp extends StatelessWidget {
+  const UserDirectoryApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Profile Card App',
+      title: 'User Directory',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
       ),
-      home: const ProfileScreen(),
+      home: const HomeScreen(),
     );
   }
 }

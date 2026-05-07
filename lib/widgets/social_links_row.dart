@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:profile_card_app_v2/models/profile.dart';
+import '../models/profile.dart';
 
 class SocialLinksRow extends StatelessWidget {
   final Profile profile;
 
-  const SocialLinksRow({
-    super.key,
-    required this.profile,
-  });
+  const SocialLinksRow({super.key, required this.profile});
 
   @override
   Widget build(BuildContext context) {
@@ -16,10 +13,7 @@ class SocialLinksRow extends StatelessWidget {
       runSpacing: 12,
       alignment: WrapAlignment.center,
       children: profile.socialLinks.entries.map((entry) {
-        return _buildSocialButton(
-          platform: entry.key,
-          url: entry.value,
-        );
+        return _buildSocialButton(platform: entry.key, url: entry.value);
       }).toList(),
     );
   }
@@ -34,18 +28,13 @@ class SocialLinksRow extends StatelessWidget {
 
     return ElevatedButton.icon(
       onPressed: () {},
-      icon: Icon(
-        _getIconForPlatform(platform),
-        size: 20,
-      ),
+      icon: Icon(_getIconForPlatform(platform), size: 20),
       label: Text(platform),
       style: ElevatedButton.styleFrom(
         backgroundColor: colors[platform] ?? Colors.blue,
         foregroundColor: Colors.white,
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(8),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       ),
     );
   }

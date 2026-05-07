@@ -22,7 +22,7 @@ class Profile {
       name: json['name'] ?? '',
       title: json['title'] ?? '',
       bio: json['bio'] ?? '',
-      avatarUrl: json['avatarUrl'] ?? 'https://i.pravatar.cc/300',
+      avatarUrl: json['avatarUrl'] ?? '',
       phoneNumbers: List<String>.from(json['phoneNumbers'] ?? []),
       emails: List<String>.from(json['emails'] ?? []),
       socialLinks: Map<String, String>.from(json['socialLinks'] ?? {}),
@@ -33,13 +33,13 @@ class Profile {
     name: 'Станіслав.Г',
     title: 'Developer',
     bio: 'Flutter developer.',
-    avatarUrl: 'https://i.pravatar.cc/300',
-    phoneNumbers: ['+3809865*****', '+3809865*****'],
-    emails: ['stanislav@example.com', 'stanislav@example.com'],
+    avatarUrl: 'https://cdn-icons-png.flaticon.com/512/3541/3541871.png',
+    phoneNumbers: ['+3809865*****'],
+    emails: ['stanislav@example.com'],
     socialLinks: {
-      'GitHub': '',
-      'LinkedIn': '',
-      'Twitter': '',
+      'GitHub': 'https://github.com/Stanislav',
+      'LinkedIn': 'https://linkedin.com/in/stanislav',
+      'Twitter': 'https://twitter.com/stanislav',
     },
   );
 }
