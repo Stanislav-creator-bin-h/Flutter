@@ -48,6 +48,7 @@ lib/
  ┃ ┗ 📜 category_card.dart        # Reusable-віджет квадратної картки категорії
  ┗ 📜 main.dart                   # Ініціалізація додатку та налаштування Theme
 
+```
 ---
 
 <img width="591" height="1280" alt="5197442008132293359_121" src="https://github.com/user-attachments/assets/2d8a33c9-d0b4-4257-9e6c-6098bdc90a7f" />
