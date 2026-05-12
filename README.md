@@ -47,3 +47,16 @@ lib/
  ┣ 📂 widgets/
  ┃ ┗ 📜 category_card.dart        # Reusable-віджет квадратної картки категорії
  ┗ 📜 main.dart                   # Ініціалізація додатку та налаштування Theme
+
+---
+
+<img width="591" height="1280" alt="5197442008132293359_121" src="https://github.com/user-attachments/assets/2d8a33c9-d0b4-4257-9e6c-6098bdc90a7f" />
+
+
+<img width="591" height="1280" alt="5197442008132293357_121" src="https://github.com/user-attachments/assets/713cd600-0509-4109-88c5-7ba3cc02cc82" />
+
+
+<img width="591" height="1280" alt="5197442008132293356_121" src="https://github.com/user-attachments/assets/21c3f96a-24c8-4e7e-93e5-17ba36b3d228" />
+
+
+<img width="591" height="1280" alt="5197442008132293358_121" src="https://github.com/user-attachments/assets/4fb45012-c0a5-4c6c-9fc1-8b7affef8d5f" />
