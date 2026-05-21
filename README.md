@@ -1,17 +1,14 @@
 # lr08_api_http
 
-A new Flutter project.
+<img width="591" height="1280" alt="5222384309149310509_121" src="https://github.com/user-attachments/assets/c2c29b18-7fb6-4f10-a99b-88db43e73745" />
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<img width="591" height="1280" alt="5222384309149310510_121" src="https://github.com/user-attachments/assets/fd6bb283-7191-48b8-a6d0-e5d7c29263fd" />
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="591" height="1280" alt="5222384309149310511_121" src="https://github.com/user-attachments/assets/afe94097-d550-4268-8096-c3b59336bb99" />
+
+
+
+<img width="591" height="1280" alt="5222384309149310508_121" src="https://github.com/user-attachments/assets/31079196-30ad-4613-81bb-10338ce9ba54" />
