@@ -1,0 +1,27 @@
+name: lr14_testing
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  test: ^1.24.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
