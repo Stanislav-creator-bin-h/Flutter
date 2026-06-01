@@ -1,17 +1,12 @@
 # lr12_animation
 
-A new Flutter project.
+<img width="591" height="1280" alt="5255903084330817131_121" src="https://github.com/user-attachments/assets/39208189-188b-4132-84d1-c91c9ead46d2" />
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<img width="591" height="1280" alt="5255903084330817132_121" src="https://github.com/user-attachments/assets/111ead4f-98fa-4fab-8e87-b31becaac8ed" />
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="591" height="1280" alt="5255903084330817131_121" src="https://github.com/user-attachments/assets/e363ae20-9b44-4daa-ac79-16d8ec21bd8a" />
+
+
