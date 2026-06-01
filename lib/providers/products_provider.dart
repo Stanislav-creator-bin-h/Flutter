@@ -5,14 +5,14 @@ final productsProvider = Provider<List<Product>>((ref) {
   return [
     Product(
       id: '1',
-      name: 'iPhone 14',
+      name: 'iPhone 24',
       category: 'Electronics',
       price: 99900.99,
       image: '📱',
     ),
     Product(
       id: '2',
-      name: 'MacBook Pro',
+      name: 'MacBook Pro Mega Ultra',
       category: 'Electronics',
       price: 1999.99,
       image: '💻',
@@ -28,7 +28,7 @@ final productsProvider = Provider<List<Product>>((ref) {
       id: '4',
       name: 'Coffee Maker',
       category: 'Home',
-      price: 89.99,
+      price: 2,
       image: '☕',
     ),
     Product(

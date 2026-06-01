@@ -6,7 +6,6 @@ final cartProvider = StateNotifierProvider<CartNotifier, List<Product>>((ref) {
   return CartNotifier();
 });
 
-// 2. Тепер cartTotalProvider зможе "бачити" cartProvider
 final cartTotalProvider = Provider<double>((ref) {
   final cart = ref.watch(cartProvider);
   return cart.fold(0.0, (sum, product) => sum + product.price);
@@ -20,7 +19,11 @@ class CartNotifier extends StateNotifier<List<Product>> {
   }
 
   void removeProduct(String productId) {
-    state = state.where((p) => p.id != productId).toList();
+    final index = state.indexWhere((p) => p.id == productId);
+    if (index == -1) return;
+    final newState = [...state];
+    newState.removeAt(index);
+    state = newState;
   }
 
   void clear() {
