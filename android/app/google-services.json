@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "628000271512",
+    "project_id": "lr16-firebase-auth-stanislav",
+    "storage_bucket": "lr16-firebase-auth-stanislav.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628000271512:android:8d48615962e967ef25b4ed",
+        "android_client_info": {
+          "package_name": "com.example.lr16_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtihUwzCLHr18SphiWePIZBoC2pm84xuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
